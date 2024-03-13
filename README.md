@@ -1,15 +1,19 @@
 # Regex-tutorial
-https://github.com/imbanu1/Regex-tutorialLinks to an external site.
+https://github.com/imbanu1/Regex-tutorial
 https://gist.github.com/imbanu1
 https://gist.github.com/imbanu1/5f204a2afa7c229eb6ec63ef9e28909d
 
 # Title (replace with your title)
 
-Introductory paragraph (replace this with your text)
+In today's write up I will be explaining what regex is and the functionality of the regex components.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will be summarixing a regular expression pattern that is used to match email addresses.
+
+^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$
+
+This pattern was created to match email addresses. It begins with ^ anchor which shows the start of the string then next a character class[a-z0-9_.-]+ which matches the local part of the email address before the @ and mtaches the @ symbol .Then this [\da-z.-]+ matches the domain name part of the email address followed by \ to match the literal dot before the top level domain. This [a-z.]{2,6} matches the top level domain and it makes sure that the domain consists of at least two letters
 
 ## Table of Contents
 
